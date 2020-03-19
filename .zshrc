@@ -8,8 +8,8 @@ export ZSH="/home/jmft/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="mh"
-
+#ZSH_THEME="mh"
+ZSH_THEME="agnoster"
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
 # a theme from this variable instead of looking in ~/.oh-my-zsh/themes/
@@ -98,7 +98,10 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 neofetch
-alias ls="ls -a"
+git config --global user.name "JosephMFT"
+#alias ls="ls -a"
+alias cdc="cd /mnt/c"
+alias cd~="/mnt/c/Users/jmft"
 alias ddg="ddgr"
 alias zshrc="vim ~/.zshrc"
 alias startup="vim ~/.config/bspwm/bspwmrc"
