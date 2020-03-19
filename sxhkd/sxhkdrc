@@ -1,0 +1,45 @@
+# Open browser
+super + F1
+	qutebrowser
+
+# Open discord
+super + F2
+	discord
+# Open steam
+super + F3
+	steam
+
+# Open urxvt
+super + Return
+	st	
+
+# Open rofi
+super + d
+	rofi -show run
+# Close active window
+super + q
+	xdo close && bspunhide
+
+# Change window focus
+super + {Left,Down,Up,Right}
+	bspc node -f {west, south, north, east}
+
+# Kill active window
+super + shift + q
+	bspc node --kill
+
+# Swap window
+super + control + shift + {Left,Up,Down,Right}
+	bspc node -s {west,north,south,east} --follow
+
+# Move window
+super + shift + {Left,Up,Down,Right}
+	bspc node -m {west,north,south,east} --follow
+
+# Kill compositor
+super + F11
+	killall -9 picom
+
+# Start compositor
+super + F12
+	picom -b
