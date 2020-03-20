@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/home/jmft/.oh-my-zsh"
+export ZSH="/home/josephmft/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -100,8 +100,6 @@ source $ZSH/oh-my-zsh.sh
 neofetch
 git config --global user.name "JosephMFT"
 #alias ls="ls -a"
-alias cdc="cd /mnt/c"
-alias cd~="/mnt/c/Users/jmft"
 alias ddg="ddgr"
 alias zshrc="vim ~/.zshrc"
 alias startup="vim ~/.config/bspwm/bspwmrc"
